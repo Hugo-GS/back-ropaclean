@@ -6,10 +6,11 @@ import { AuthModule } from './auth/auth.module';
 import { ClienteModule } from './cliente/cliente.module';
 import { ServicioModule } from './servicio/servicio.module';
 import { VentaModule } from './venta/venta.module';
+import { ReportesModule } from './reportes/reportes.module';
 
 
 @Module({
-  imports: [DatabaseModule, AuthModule, ClienteModule, ServicioModule, VentaModule],
+  imports: [DatabaseModule, AuthModule, ClienteModule, ServicioModule, VentaModule, ReportesModule],
   controllers: [AppController],
   providers: [AppService],
 })

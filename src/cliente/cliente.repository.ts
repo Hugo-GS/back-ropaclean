@@ -88,6 +88,4 @@ export class ClienteRepository {
       throw new Error('Error al buscar cliente');
     }
   }
-
-
 }
